@@ -10,7 +10,7 @@
     </filter-class>
     <init-param>
         <param-name>encoding</param-name>
-        <param-value>UTF-8</param-value>
+        <param-value>UTF-8</param-value>  <!-- 이 포맷으로 한글 가능 -->
     </init-param>
     <init-param>
         <param-name>forceEncoding</param-name>

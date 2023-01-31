@@ -17,11 +17,11 @@
 
 	<!-- Resolves views selected for rendering by @Controllers to .jsp resources in the /WEB-INF/views directory -->
 	<beans:bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-		<beans:property name="prefix" value="/WEB-INF/views/" />
-		<beans:property name="suffix" value=".jsp" />
+		<beans:property name="prefix" value="/WEB-INF/views/" />   <!-- 어디 위치에 있는지 -->
+		<beans:property name="suffix" value=".jsp" /> <!--그 중 파일명 지정 -->
 	</beans:bean>
 	
-	<context:component-scan base-package="SpringProject.Project.week1" />
+	<context:component-scan base-package="SpringProject.Project" />  <!-- 해당 패키지의 어노테이션 인식 기능 -->
 	
 	
 	
