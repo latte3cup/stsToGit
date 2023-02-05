@@ -15,9 +15,11 @@ public class MySqlConnectionTest {
 	public void testConnection() throws Exception{
 		Class.forName(DRIVER);
 		try (Connection connection = DriverManager.getConnection(URL,USER,PASSWORD)){
-			System.out.println(connection); // 콘솔창에서 연결정보를 출력하여 확인한다.
+			System.out.println(connection); // 콘솔창에서 연결정보를 출력하여 확인한다..
+			System.out.println("Connection success");
 		}catch (Exception e) {
 			e.printStackTrace();
+			System.out.println("Connection Error!");
 		}
 	
 		

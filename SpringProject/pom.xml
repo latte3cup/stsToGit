@@ -136,7 +136,7 @@
 		    <artifactId>mysql-connector-java</artifactId>
 		    <version>8.0.27</version>
 		</dependency>
-		<!--  Mybatis 설정 -->
+		<!--  Mybatis 설정 --><!-- DB를 이쁘게 사용하는 프레임워크 -->
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis</artifactId>
