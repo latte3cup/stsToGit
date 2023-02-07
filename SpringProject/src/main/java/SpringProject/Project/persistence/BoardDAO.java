@@ -2,6 +2,7 @@ package SpringProject.Project.persistence;
 
 import java.util.List;
 
+
 import SpringProject.Project.domain.BoardVO;
 
 public interface BoardDAO {
