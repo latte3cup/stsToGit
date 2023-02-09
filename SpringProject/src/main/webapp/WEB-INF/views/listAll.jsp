@@ -17,7 +17,7 @@
 
 </head>
 
-<form action="regist" method="get">
+<form action="regist" method="get"> <!-- regist.jsp È£Ãâ -->
 	<body>
 		<table border="1" width="880">
 			<tr>

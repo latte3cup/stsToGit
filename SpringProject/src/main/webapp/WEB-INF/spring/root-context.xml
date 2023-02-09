@@ -17,7 +17,7 @@
 	<!-- DB의 정보 -->
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver"></property>
-		<property name="url" value="jdbc:mysql://localhost:3306/schema01?characterEncoding=utf8&amp;useSSL=false"></property>
+		<property name="url" value="jdbc:mysql://localhost:3306/schema01?characterEncoding=utf8&amp;useSSL=false&amp;allowPublicKeyRetrieval=true"></property>
 		<property name="username" value="root"></property>
 		<property name="password" value="123qweasd!@#"></property>
 	</bean>
