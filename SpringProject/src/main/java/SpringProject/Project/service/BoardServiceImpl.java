@@ -43,5 +43,5 @@ public class BoardServiceImpl implements BoardService {
 	public List<BoardVO> listAll() throws Exception {
 		return dao.listAll();
 	}
-
+ 
 }
